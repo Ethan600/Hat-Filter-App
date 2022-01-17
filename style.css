@@ -1,0 +1,24 @@
+h3{
+    font-size: 25px !important;
+}
+
+canvas{
+    border: 1px dashed black;
+    animation-name: canvas_blender;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes canvas_blender{
+    10%{box-shadow: 1px 1px 55px red;}
+    20%{box-shadow: 1px 1px 55px orange;}
+    30%{box-shadow: 1px 1px 55px yellow;}
+    40%{box-shadow: 1px 1px 55px green;}
+    50%{box-shadow: 1px 1px 55px blue;}
+    60%{box-shadow: 1px 1px 55px indigo;}
+    70%{box-shadow: 1px 1px 55px violet;}
+}
+
+.btn-info:hover{
+    background-color: darkgreen;
+}
